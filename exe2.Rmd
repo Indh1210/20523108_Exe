@@ -1,0 +1,30 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+Exe3no2
+
+```{r}
+yac_expr("D(x) x^6-2*sin(x)-4")
+```
+
+```{r}
+yac_expr("D(x) sin(x)-4*x^4-2")
+```
+
+```{r}
+yac_expr("D(x) x^6-2/sin(x)-4")
+```
+
+```{r}
+yac_expr("D(x) sin(x)-4/x^6-2")
+```
+
+```{r}
+yac_expr("D(x) sin(x^6-2)-4")
+```
+
+```{r}
+yac_expr("D(x) (sin(x)-4)^6-2")
+```
+

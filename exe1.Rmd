@@ -1,0 +1,32 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+Exc3no1
+
+```{r}
+D(expression(2*x^5),'x')
+```
+
+```{r}
+D(expression(x^2+4),'x')
+```
+
+```{r}
+D(expression(x^5-6*x^7),'x')
+```
+
+```{r}
+yac_expr("D(x) 2*x^5")
+```
+```{r}
+yac_expr("D(x) x^2+4")
+```
+
+```{r}
+yac_expr("D(x) x^5-6*x^7" )
+```
+
+
+
